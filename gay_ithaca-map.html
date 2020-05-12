@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3db2ede67c6d451ba94b3b8ccdd0c160 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3db2ede67c6d451ba94b3b8ccdd0c160" ></div>
+        
+</body>
+<script>    
+    
+            var map_3db2ede67c6d451ba94b3b8ccdd0c160 = L.map(
+                "map_3db2ede67c6d451ba94b3b8ccdd0c160",
+                {
+                    center: [42.44, -76.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a66d8590a38c4992a8942227ef7a5433 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var marker_67829eacbf0841bebbe756cb7f995450 = L.marker(
+                [42.441998, -76.487347],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_4feb75bdb03f4c3eb2ccf2572e3e2f35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67829eacbf0841bebbe756cb7f995450.setIcon(icon_4feb75bdb03f4c3eb2ccf2572e3e2f35);
+        
+    
+        var popup_65169d20a9774bda93ca77e494d02de9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8acaac2d9c984c9196e8611ea93828a0 = $(`<div id="html_8acaac2d9c984c9196e8611ea93828a0" style="width: 100.0%; height: 100.0%;">("Morrie's Bar", nan)</div>`)[0];
+            popup_65169d20a9774bda93ca77e494d02de9.setContent(html_8acaac2d9c984c9196e8611ea93828a0);
+        
+
+        marker_67829eacbf0841bebbe756cb7f995450.bindPopup(popup_65169d20a9774bda93ca77e494d02de9)
+        ;
+
+        
+    
+    
+            var marker_d3cf74514cbc403591b65af9be5602ba = L.marker(
+                [42.441984000000005, -76.485454],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_6d5d4137c97a420f8e315a569663fa7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3cf74514cbc403591b65af9be5602ba.setIcon(icon_6d5d4137c97a420f8e315a569663fa7f);
+        
+    
+        var popup_02ce43d2a02447b7b332d4cd6cea7165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91f50e55fc2a466bbada575b14f3d0eb = $(`<div id="html_91f50e55fc2a466bbada575b14f3d0eb" style="width: 100.0%; height: 100.0%;">("Gay People's Center", nan)</div>`)[0];
+            popup_02ce43d2a02447b7b332d4cd6cea7165.setContent(html_91f50e55fc2a466bbada575b14f3d0eb);
+        
+
+        marker_d3cf74514cbc403591b65af9be5602ba.bindPopup(popup_02ce43d2a02447b7b332d4cd6cea7165)
+        ;
+
+        
+    
+    
+            var marker_d5669501180645dea382eda436439975 = L.marker(
+                [42.439802, -76.495407],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_4f9c05a887ed47b29fd8157719cb0db3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5669501180645dea382eda436439975.setIcon(icon_4f9c05a887ed47b29fd8157719cb0db3);
+        
+    
+        var popup_74325c7df37e4fd5bb9529aeabc7b335 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_042f09e781054107b0009e87f8686ad0 = $(`<div id="html_042f09e781054107b0009e87f8686ad0" style="width: 100.0%; height: 100.0%;">("Gay People's Center", "The Gay People's Center moved from College Ave to E State St")</div>`)[0];
+            popup_74325c7df37e4fd5bb9529aeabc7b335.setContent(html_042f09e781054107b0009e87f8686ad0);
+        
+
+        marker_d5669501180645dea382eda436439975.bindPopup(popup_74325c7df37e4fd5bb9529aeabc7b335)
+        ;
+
+        
+    
+    
+            var marker_5a8da62d63414577bbcf74080f3a97de = L.marker(
+                [42.444939, -76.485596],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_7af33e979c1549bbaf4e491ae248bb8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a8da62d63414577bbcf74080f3a97de.setIcon(icon_7af33e979c1549bbaf4e491ae248bb8c);
+        
+    
+        var popup_4ecb295a15df488483c2d282f7fe0b24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4acd6dcf3b84dcf8880eae2e2c2cab1 = $(`<div id="html_b4acd6dcf3b84dcf8880eae2e2c2cab1" style="width: 100.0%; height: 100.0%;">('Student Homophile League', nan)</div>`)[0];
+            popup_4ecb295a15df488483c2d282f7fe0b24.setContent(html_b4acd6dcf3b84dcf8880eae2e2c2cab1);
+        
+
+        marker_5a8da62d63414577bbcf74080f3a97de.bindPopup(popup_4ecb295a15df488483c2d282f7fe0b24)
+        ;
+
+        
+    
+    
+            var marker_4cc1d4506e22475a9b124d66b0681d24 = L.marker(
+                [42.446686, -76.485403],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_b655d3b644f04ce1a43e9d5a9389c02e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4cc1d4506e22475a9b124d66b0681d24.setIcon(icon_b655d3b644f04ce1a43e9d5a9389c02e);
+        
+    
+        var popup_057881afc14f48aca502bbe897b50f36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9a88d3a4131428ab23d7a4bc1585267 = $(`<div id="html_c9a88d3a4131428ab23d7a4bc1585267" style="width: 100.0%; height: 100.0%;">('Gay Liberation Front', nan)</div>`)[0];
+            popup_057881afc14f48aca502bbe897b50f36.setContent(html_c9a88d3a4131428ab23d7a4bc1585267);
+        
+
+        marker_4cc1d4506e22475a9b124d66b0681d24.bindPopup(popup_057881afc14f48aca502bbe897b50f36)
+        ;
+
+        
+    
+    
+            var marker_06731ecb728e4f80a9bd76998d4590f1 = L.marker(
+                [42.446544, -76.48549399999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_36097090bade4ec2b3696b7cf6be3e9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06731ecb728e4f80a9bd76998d4590f1.setIcon(icon_36097090bade4ec2b3696b7cf6be3e9a);
+        
+    
+        var popup_1f07dee78df849e5b9c513cd3ee5a69a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53cfcfbd9c0747398ef3d26c0d1b67dc = $(`<div id="html_53cfcfbd9c0747398ef3d26c0d1b67dc" style="width: 100.0%; height: 100.0%;">('Gay People at Cornell (GayPAC)', nan)</div>`)[0];
+            popup_1f07dee78df849e5b9c513cd3ee5a69a.setContent(html_53cfcfbd9c0747398ef3d26c0d1b67dc);
+        
+
+        marker_06731ecb728e4f80a9bd76998d4590f1.bindPopup(popup_1f07dee78df849e5b9c513cd3ee5a69a)
+        ;
+
+        
+    
+    
+            var marker_6e2af131ade441c58fd312cbf87060a3 = L.marker(
+                [42.422478999999996, -76.49435799999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_eaa02eed109341faa281106fff49e778 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e2af131ade441c58fd312cbf87060a3.setIcon(icon_eaa02eed109341faa281106fff49e778);
+        
+    
+        var popup_484b93fb08024ccb8521ee9e2baa8dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d87b9a626336427da7b0a36f00bcf488 = $(`<div id="html_d87b9a626336427da7b0a36f00bcf488" style="width: 100.0%; height: 100.0%;">('The Ithaca Statement on Bisexuality', nan)</div>`)[0];
+            popup_484b93fb08024ccb8521ee9e2baa8dc1.setContent(html_d87b9a626336427da7b0a36f00bcf488);
+        
+
+        marker_6e2af131ade441c58fd312cbf87060a3.bindPopup(popup_484b93fb08024ccb8521ee9e2baa8dc1)
+        ;
+
+        
+    
+    
+            var marker_0ca8ef095c6c4efab25651b650e9a583 = L.marker(
+                [42.45471, -76.476721],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_00a567cb2c62466e831f49d7ed45c4ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ca8ef095c6c4efab25651b650e9a583.setIcon(icon_00a567cb2c62466e831f49d7ed45c4ae);
+        
+    
+        var popup_421317c4226949b994795129c5654817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4e20a23ce4439db9c417105e607920 = $(`<div id="html_3d4e20a23ce4439db9c417105e607920" style="width: 100.0%; height: 100.0%;">('Loving House', nan)</div>`)[0];
+            popup_421317c4226949b994795129c5654817.setContent(html_3d4e20a23ce4439db9c417105e607920);
+        
+
+        marker_0ca8ef095c6c4efab25651b650e9a583.bindPopup(popup_421317c4226949b994795129c5654817)
+        ;
+
+        
+    
+    
+            var marker_10737bf184154d058850e5b4e7dcbf30 = L.marker(
+                [42.440982, -76.495447],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_38f773e46ee9429086281c4bcdf272dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_10737bf184154d058850e5b4e7dcbf30.setIcon(icon_38f773e46ee9429086281c4bcdf272dd);
+        
+    
+        var popup_55aee3bfbed143f9b9f1a1c6317b29e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e62a1b4f1eb46408ee5d1a7a924b5b2 = $(`<div id="html_3e62a1b4f1eb46408ee5d1a7a924b5b2" style="width: 100.0%; height: 100.0%;">('Nite Court Restaurant', nan)</div>`)[0];
+            popup_55aee3bfbed143f9b9f1a1c6317b29e2.setContent(html_3e62a1b4f1eb46408ee5d1a7a924b5b2);
+        
+
+        marker_10737bf184154d058850e5b4e7dcbf30.bindPopup(popup_55aee3bfbed143f9b9f1a1c6317b29e2)
+        ;
+
+        
+    
+    
+            var marker_46e1e8a9ea2f47e58e11822d65dec5bd = L.marker(
+                [42.446374, -76.485499],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_c8b92046dfff4766b51e09a8d0e09813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46e1e8a9ea2f47e58e11822d65dec5bd.setIcon(icon_c8b92046dfff4766b51e09a8d0e09813);
+        
+    
+        var popup_5fd492a82ab6467b8c5deea8e1aa0ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb7ac2610fcb456f8b34969f22072d03 = $(`<div id="html_cb7ac2610fcb456f8b34969f22072d03" style="width: 100.0%; height: 100.0%;">('Gay, Bisexuals, and Lesbians of Color (GBLOC)', nan)</div>`)[0];
+            popup_5fd492a82ab6467b8c5deea8e1aa0ca1.setContent(html_cb7ac2610fcb456f8b34969f22072d03);
+        
+
+        marker_46e1e8a9ea2f47e58e11822d65dec5bd.bindPopup(popup_5fd492a82ab6467b8c5deea8e1aa0ca1)
+        ;
+
+        
+    
+    
+            var marker_630f6c7380ab4a378394b13f8f112153 = L.marker(
+                [42.446406, -76.485054],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_8d11305924f043b7acb16ec36b676e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_630f6c7380ab4a378394b13f8f112153.setIcon(icon_8d11305924f043b7acb16ec36b676e4f);
+        
+    
+        var popup_541c4b71b5ed403680cdee13ff1fde03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00617b125508452cb1613b52518378ee = $(`<div id="html_00617b125508452cb1613b52518378ee" style="width: 100.0%; height: 100.0%;">('First GBLOC conference', 'The First GBLOC conference featured a rally in front of Willard Straight Hall')</div>`)[0];
+            popup_541c4b71b5ed403680cdee13ff1fde03.setContent(html_00617b125508452cb1613b52518378ee);
+        
+
+        marker_630f6c7380ab4a378394b13f8f112153.bindPopup(popup_541c4b71b5ed403680cdee13ff1fde03)
+        ;
+
+        
+    
+    
+            var marker_5e44bd6f62ea47148f58b298f5fcc02c = L.marker(
+                [42.405856, -76.511868],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_4615a613466841a19710da9a9250f39f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e44bd6f62ea47148f58b298f5fcc02c.setIcon(icon_4615a613466841a19710da9a9250f39f);
+        
+    
+        var popup_359b47ab06474490a69dd219a6c88021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee93442624394e39999a07412c56a4c4 = $(`<div id="html_ee93442624394e39999a07412c56a4c4" style="width: 100.0%; height: 100.0%;">('Upper Buttermilk State Park', 'Picnics in Buttermilk State Park brought queer people from around the Southern Tier together')</div>`)[0];
+            popup_359b47ab06474490a69dd219a6c88021.setContent(html_ee93442624394e39999a07412c56a4c4);
+        
+
+        marker_5e44bd6f62ea47148f58b298f5fcc02c.bindPopup(popup_359b47ab06474490a69dd219a6c88021)
+        ;
+
+        
+    
+    
+            var marker_deff672b7b9343dba6c845b236a73230 = L.marker(
+                [42.446678999999996, -76.48588000000001],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_a2c42811f2cb48d6a1a9b324376b69f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_deff672b7b9343dba6c845b236a73230.setIcon(icon_a2c42811f2cb48d6a1a9b324376b69f2);
+        
+    
+        var popup_9025119a78a847319571992113b4fd8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4e57ce10fd34634b6b86248be78a960 = $(`<div id="html_c4e57ce10fd34634b6b86248be78a960" style="width: 100.0%; height: 100.0%;">('May Gay Festival', nan)</div>`)[0];
+            popup_9025119a78a847319571992113b4fd8d.setContent(html_c4e57ce10fd34634b6b86248be78a960);
+        
+
+        marker_deff672b7b9343dba6c845b236a73230.bindPopup(popup_9025119a78a847319571992113b4fd8d)
+        ;
+
+        
+    
+    
+            var marker_9691ab18d6fc48c1a2752d1cae18e57f = L.marker(
+                [42.447841, -76.483979],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_3081d857edcd4f3bbe603efe7bf1ff3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9691ab18d6fc48c1a2752d1cae18e57f.setIcon(icon_3081d857edcd4f3bbe603efe7bf1ff3d);
+        
+    
+        var popup_35c2e895839a4524b6c7671bdb9ef5ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_153f425247bd465f850060fc19c43ed1 = $(`<div id="html_153f425247bd465f850060fc19c43ed1" style="width: 100.0%; height: 100.0%;">('Human Sexuality Collection', nan)</div>`)[0];
+            popup_35c2e895839a4524b6c7671bdb9ef5ca.setContent(html_153f425247bd465f850060fc19c43ed1);
+        
+
+        marker_9691ab18d6fc48c1a2752d1cae18e57f.bindPopup(popup_35c2e895839a4524b6c7671bdb9ef5ca)
+        ;
+
+        
+    
+    
+            var marker_bb360a25e33f4956864b68ede09aebb0 = L.marker(
+                [42.422131, -76.49278000000001],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_8ae5545075e44ddfb0cca24dad0809fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb360a25e33f4956864b68ede09aebb0.setIcon(icon_8ae5545075e44ddfb0cca24dad0809fd);
+        
+    
+        var popup_027dddb7c313426e9cea64ec5eb81bdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cedf4b08478452dae067d81d48eb97d = $(`<div id="html_3cedf4b08478452dae067d81d48eb97d" style="width: 100.0%; height: 100.0%;">('HIV/AIDS Memorial Daffodil Gardens', nan)</div>`)[0];
+            popup_027dddb7c313426e9cea64ec5eb81bdc.setContent(html_3cedf4b08478452dae067d81d48eb97d);
+        
+
+        marker_bb360a25e33f4956864b68ede09aebb0.bindPopup(popup_027dddb7c313426e9cea64ec5eb81bdc)
+        ;
+
+        
+    
+    
+            var marker_ea0c2396e1904cec897a8e07d29f9b10 = L.marker(
+                [42.438064000000004, -76.494215],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_cc3bab3f06804833bf109cc2987643be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea0c2396e1904cec897a8e07d29f9b10.setIcon(icon_cc3bab3f06804833bf109cc2987643be);
+        
+    
+        var popup_c6612edfc901474d930852ef73e48858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd3aa948b6740f58aa3db85ca754fe8 = $(`<div id="html_6dd3aa948b6740f58aa3db85ca754fe8" style="width: 100.0%; height: 100.0%;">('Home of Cleve Thomas', nan)</div>`)[0];
+            popup_c6612edfc901474d930852ef73e48858.setContent(html_6dd3aa948b6740f58aa3db85ca754fe8);
+        
+
+        marker_ea0c2396e1904cec897a8e07d29f9b10.bindPopup(popup_c6612edfc901474d930852ef73e48858)
+        ;
+
+        
+    
+    
+            var marker_b48b3e9261574232ae23dcd724e61fbc = L.marker(
+                [42.437424, -76.50404499999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_fbdd2119a596424c9ea4ab67cb17e158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b48b3e9261574232ae23dcd724e61fbc.setIcon(icon_fbdd2119a596424c9ea4ab67cb17e158);
+        
+    
+        var popup_2e45d851d78c48a399a1eec7cb02dd77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_357c09a76ea74996b462b2b247feea41 = $(`<div id="html_357c09a76ea74996b462b2b247feea41" style="width: 100.0%; height: 100.0%;">('Boyhood Home of Julius Eastman', nan)</div>`)[0];
+            popup_2e45d851d78c48a399a1eec7cb02dd77.setContent(html_357c09a76ea74996b462b2b247feea41);
+        
+
+        marker_b48b3e9261574232ae23dcd724e61fbc.bindPopup(popup_2e45d851d78c48a399a1eec7cb02dd77)
+        ;
+
+        
+    
+    
+            var marker_f3ee552c3c404555ac066edc2a29f667 = L.marker(
+                [42.440072, -76.503725],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_dfec0d32b54a4dc18314f8425f63ea11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f3ee552c3c404555ac066edc2a29f667.setIcon(icon_dfec0d32b54a4dc18314f8425f63ea11);
+        
+    
+        var popup_9eccf49d58094fb98777bba24a666c6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_642336914b5a4561a74fe16175f91107 = $(`<div id="html_642336914b5a4561a74fe16175f91107" style="width: 100.0%; height: 100.0%;">('Home of Harry Partch', nan)</div>`)[0];
+            popup_9eccf49d58094fb98777bba24a666c6d.setContent(html_642336914b5a4561a74fe16175f91107);
+        
+
+        marker_f3ee552c3c404555ac066edc2a29f667.bindPopup(popup_9eccf49d58094fb98777bba24a666c6d)
+        ;
+
+        
+    
+    
+            var marker_2a03d9b54645401db99d1a48cdcc5153 = L.marker(
+                [42.439234, -76.502167],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_17470f37f80d4482b014e827a50867eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a03d9b54645401db99d1a48cdcc5153.setIcon(icon_17470f37f80d4482b014e827a50867eb);
+        
+    
+        var popup_009e0bddf9ab4f25b12171219f6c1771 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_616c86df8e1f41a4b80dc00b63b01c02 = $(`<div id="html_616c86df8e1f41a4b80dc00b63b01c02" style="width: 100.0%; height: 100.0%;">('Smedleys Book Shop', nan)</div>`)[0];
+            popup_009e0bddf9ab4f25b12171219f6c1771.setContent(html_616c86df8e1f41a4b80dc00b63b01c02);
+        
+
+        marker_2a03d9b54645401db99d1a48cdcc5153.bindPopup(popup_009e0bddf9ab4f25b12171219f6c1771)
+        ;
+
+        
+    
+    
+            var marker_258d05e5cad04c34be0c6ed1d6db0f9c = L.marker(
+                [42.43971, -76.500304],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_86c2e2b0941a4298aee2980004a733a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_258d05e5cad04c34be0c6ed1d6db0f9c.setIcon(icon_86c2e2b0941a4298aee2980004a733a8);
+        
+    
+        var popup_4bc1132488ad4540bc79f2ec0a0c335b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9a30e4b0b604cbf9cf07de5a5b5f2ee = $(`<div id="html_d9a30e4b0b604cbf9cf07de5a5b5f2ee" style="width: 100.0%; height: 100.0%;">('Common Ground Dance Club original location', nan)</div>`)[0];
+            popup_4bc1132488ad4540bc79f2ec0a0c335b.setContent(html_d9a30e4b0b604cbf9cf07de5a5b5f2ee);
+        
+
+        marker_258d05e5cad04c34be0c6ed1d6db0f9c.bindPopup(popup_4bc1132488ad4540bc79f2ec0a0c335b)
+        ;
+
+        
+    
+    
+            var marker_cc20b87cde3343de9e8c19e921e1646e = L.marker(
+                [42.43893, -76.498551],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_7bf5830647c141098feb74162dc9ca1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc20b87cde3343de9e8c19e921e1646e.setIcon(icon_7bf5830647c141098feb74162dc9ca1a);
+        
+    
+        var popup_e0f6c452ced64620b9c1f0ab0f66aa52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de41b65bbb064075bcc8e93e7602e980 = $(`<div id="html_de41b65bbb064075bcc8e93e7602e980" style="width: 100.0%; height: 100.0%;">("city hall/mayor's office", 'Two men were refused a marriage license despite support from Ithaca city officials, sparking a 2004 lawsuit with 25 same-sex couples called the "Ithaca 50"')</div>`)[0];
+            popup_e0f6c452ced64620b9c1f0ab0f66aa52.setContent(html_de41b65bbb064075bcc8e93e7602e980);
+        
+
+        marker_cc20b87cde3343de9e8c19e921e1646e.bindPopup(popup_e0f6c452ced64620b9c1f0ab0f66aa52)
+        ;
+
+        
+    
+    
+            var marker_75cd259843364855b5b5aac65a19907a = L.marker(
+                [42.439331, -76.497592],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_12c712625bb7470d893c3ecf39b6c313 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75cd259843364855b5b5aac65a19907a.setIcon(icon_12c712625bb7470d893c3ecf39b6c313);
+        
+    
+        var popup_40a891bce51f4af8828541b07e88bbc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ebc1719b764e97a40ee4e2cd72ff1d = $(`<div id="html_31ebc1719b764e97a40ee4e2cd72ff1d" style="width: 100.0%; height: 100.0%;">('Firebrand Books', nan)</div>`)[0];
+            popup_40a891bce51f4af8828541b07e88bbc9.setContent(html_31ebc1719b764e97a40ee4e2cd72ff1d);
+        
+
+        marker_75cd259843364855b5b5aac65a19907a.bindPopup(popup_40a891bce51f4af8828541b07e88bbc9)
+        ;
+
+        
+    
+    
+            var marker_ec283f16113d44ab8964b7df1a281c2d = L.marker(
+                [42.446712, -76.48591],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_b4a6d82985924f7ca1b6b88135166181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec283f16113d44ab8964b7df1a281c2d.setIcon(icon_b4a6d82985924f7ca1b6b88135166181);
+        
+    
+        var popup_fe5a261ed4dc4c2993c800b8c8dfa68f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ca8cc9f9eb844bc9675401e9ee91e58 = $(`<div id="html_7ca8cc9f9eb844bc9675401e9ee91e58" style="width: 100.0%; height: 100.0%;">('Barbara Gittings Speaks at Cornell', nan)</div>`)[0];
+            popup_fe5a261ed4dc4c2993c800b8c8dfa68f.setContent(html_7ca8cc9f9eb844bc9675401e9ee91e58);
+        
+
+        marker_ec283f16113d44ab8964b7df1a281c2d.bindPopup(popup_fe5a261ed4dc4c2993c800b8c8dfa68f)
+        ;
+
+        
+    
+    
+            var marker_95a4f42e25bb488a9ffe410ae78655d9 = L.marker(
+                [42.441998, -76.487347],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_d77e5b7b7f7840c7aea3e9f211c4e0b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_95a4f42e25bb488a9ffe410ae78655d9.setIcon(icon_d77e5b7b7f7840c7aea3e9f211c4e0b3);
+        
+    
+        var popup_581dbafb9f4c4198bd9d5ecbaf929494 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05e8abd144374f1398b5fab71eaa3901 = $(`<div id="html_05e8abd144374f1398b5fab71eaa3901" style="width: 100.0%; height: 100.0%;">("Morrie's Bar", nan)</div>`)[0];
+            popup_581dbafb9f4c4198bd9d5ecbaf929494.setContent(html_05e8abd144374f1398b5fab71eaa3901);
+        
+
+        marker_95a4f42e25bb488a9ffe410ae78655d9.bindPopup(popup_581dbafb9f4c4198bd9d5ecbaf929494)
+        ;
+
+        
+    
+    
+            var marker_cab29e6b124b4af985eafcd04fc1f771 = L.marker(
+                [42.441984000000005, -76.485454],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_55403a836fe147958137c33831567973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cab29e6b124b4af985eafcd04fc1f771.setIcon(icon_55403a836fe147958137c33831567973);
+        
+    
+        var popup_7e6fa2e68bc94312a44e52dec3b652b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07262b6e78504e2e9c129a5819b9c5df = $(`<div id="html_07262b6e78504e2e9c129a5819b9c5df" style="width: 100.0%; height: 100.0%;">("Gay People's Center", nan)</div>`)[0];
+            popup_7e6fa2e68bc94312a44e52dec3b652b7.setContent(html_07262b6e78504e2e9c129a5819b9c5df);
+        
+
+        marker_cab29e6b124b4af985eafcd04fc1f771.bindPopup(popup_7e6fa2e68bc94312a44e52dec3b652b7)
+        ;
+
+        
+    
+    
+            var marker_2685599d42dc4afb87bcd4ef9f6cef32 = L.marker(
+                [42.439802, -76.495407],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_c245072049454f5a900d6e9e95d08c3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2685599d42dc4afb87bcd4ef9f6cef32.setIcon(icon_c245072049454f5a900d6e9e95d08c3a);
+        
+    
+        var popup_25e06aef29a44fa68c0f3afb9cc5edea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afdd6d6ce8134645b6314e7197b95c61 = $(`<div id="html_afdd6d6ce8134645b6314e7197b95c61" style="width: 100.0%; height: 100.0%;">("Gay People's Center", "The Gay People's Center moved from College Ave to E State St")</div>`)[0];
+            popup_25e06aef29a44fa68c0f3afb9cc5edea.setContent(html_afdd6d6ce8134645b6314e7197b95c61);
+        
+
+        marker_2685599d42dc4afb87bcd4ef9f6cef32.bindPopup(popup_25e06aef29a44fa68c0f3afb9cc5edea)
+        ;
+
+        
+    
+    
+            var marker_a361e43fcff9487eb43ce0e0ff8eaaa8 = L.marker(
+                [42.444939, -76.485596],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_9c4d4c395b224eac895741a37c4596a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a361e43fcff9487eb43ce0e0ff8eaaa8.setIcon(icon_9c4d4c395b224eac895741a37c4596a5);
+        
+    
+        var popup_efc2045abf204803b52a5286281d05f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d8eaba9fa1145f5bdefe1c4ea2667be = $(`<div id="html_6d8eaba9fa1145f5bdefe1c4ea2667be" style="width: 100.0%; height: 100.0%;">('Student Homophile League', nan)</div>`)[0];
+            popup_efc2045abf204803b52a5286281d05f8.setContent(html_6d8eaba9fa1145f5bdefe1c4ea2667be);
+        
+
+        marker_a361e43fcff9487eb43ce0e0ff8eaaa8.bindPopup(popup_efc2045abf204803b52a5286281d05f8)
+        ;
+
+        
+    
+    
+            var marker_374916a6bb2d4f8f85a4d318ce05061e = L.marker(
+                [42.446686, -76.485403],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_cc3bba8b35b2448b92ebac4cecc4c5d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_374916a6bb2d4f8f85a4d318ce05061e.setIcon(icon_cc3bba8b35b2448b92ebac4cecc4c5d8);
+        
+    
+        var popup_2278f4469caa4f3580011facf61d045a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b0919c9001c426499d96f48b6c71a5f = $(`<div id="html_4b0919c9001c426499d96f48b6c71a5f" style="width: 100.0%; height: 100.0%;">('Gay Liberation Front', nan)</div>`)[0];
+            popup_2278f4469caa4f3580011facf61d045a.setContent(html_4b0919c9001c426499d96f48b6c71a5f);
+        
+
+        marker_374916a6bb2d4f8f85a4d318ce05061e.bindPopup(popup_2278f4469caa4f3580011facf61d045a)
+        ;
+
+        
+    
+    
+            var marker_5771029a9481490ea9305b8013064ac3 = L.marker(
+                [42.446544, -76.48549399999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_ec65433b58174a0f92f460b277249953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5771029a9481490ea9305b8013064ac3.setIcon(icon_ec65433b58174a0f92f460b277249953);
+        
+    
+        var popup_77a3fc97c7624c29ac62f59d5fc0e81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d19247bd05c4da4a01716427a9532d2 = $(`<div id="html_9d19247bd05c4da4a01716427a9532d2" style="width: 100.0%; height: 100.0%;">('Gay People at Cornell (GayPAC)', nan)</div>`)[0];
+            popup_77a3fc97c7624c29ac62f59d5fc0e81b.setContent(html_9d19247bd05c4da4a01716427a9532d2);
+        
+
+        marker_5771029a9481490ea9305b8013064ac3.bindPopup(popup_77a3fc97c7624c29ac62f59d5fc0e81b)
+        ;
+
+        
+    
+    
+            var marker_5554faf352544e9799440079bd243fea = L.marker(
+                [42.422478999999996, -76.49435799999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_9684ce24f52a436f8ebf402553d98c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5554faf352544e9799440079bd243fea.setIcon(icon_9684ce24f52a436f8ebf402553d98c1c);
+        
+    
+        var popup_9c5001f52f63430896b7c91ad1c9957d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc3bbd0661f14ceb890dc2f0c77159e9 = $(`<div id="html_dc3bbd0661f14ceb890dc2f0c77159e9" style="width: 100.0%; height: 100.0%;">('The Ithaca Statement on Bisexuality', nan)</div>`)[0];
+            popup_9c5001f52f63430896b7c91ad1c9957d.setContent(html_dc3bbd0661f14ceb890dc2f0c77159e9);
+        
+
+        marker_5554faf352544e9799440079bd243fea.bindPopup(popup_9c5001f52f63430896b7c91ad1c9957d)
+        ;
+
+        
+    
+    
+            var marker_68c48228996c48ec9835d3cd1b35c472 = L.marker(
+                [42.45471, -76.476721],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_e8bd7ed187284aab9eeab9109e9d7b6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_68c48228996c48ec9835d3cd1b35c472.setIcon(icon_e8bd7ed187284aab9eeab9109e9d7b6c);
+        
+    
+        var popup_37de2ed8f6124f748a0825be757599e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_096c270e03de48dcbc51ab9e5593b3f6 = $(`<div id="html_096c270e03de48dcbc51ab9e5593b3f6" style="width: 100.0%; height: 100.0%;">('Loving House', nan)</div>`)[0];
+            popup_37de2ed8f6124f748a0825be757599e4.setContent(html_096c270e03de48dcbc51ab9e5593b3f6);
+        
+
+        marker_68c48228996c48ec9835d3cd1b35c472.bindPopup(popup_37de2ed8f6124f748a0825be757599e4)
+        ;
+
+        
+    
+    
+            var marker_620fbdffa3044908980a274e6d4892ba = L.marker(
+                [42.440982, -76.495447],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_71face05b9d94ea0987c922bf07948db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_620fbdffa3044908980a274e6d4892ba.setIcon(icon_71face05b9d94ea0987c922bf07948db);
+        
+    
+        var popup_3913a3ae3aca403eba27f218102e6c4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdbdf19884ee4717adf4c5abc479310e = $(`<div id="html_fdbdf19884ee4717adf4c5abc479310e" style="width: 100.0%; height: 100.0%;">('Nite Court Restaurant', nan)</div>`)[0];
+            popup_3913a3ae3aca403eba27f218102e6c4d.setContent(html_fdbdf19884ee4717adf4c5abc479310e);
+        
+
+        marker_620fbdffa3044908980a274e6d4892ba.bindPopup(popup_3913a3ae3aca403eba27f218102e6c4d)
+        ;
+
+        
+    
+    
+            var marker_9f54aff9d85a42dbb2bd839cc259bd58 = L.marker(
+                [42.446374, -76.485499],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_39162d4d5474470da4cdd1253ac64e01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9f54aff9d85a42dbb2bd839cc259bd58.setIcon(icon_39162d4d5474470da4cdd1253ac64e01);
+        
+    
+        var popup_22f1285fa7f445fbbfca9a0b78aea984 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c1426c9628f4c28ba6556065aeb7962 = $(`<div id="html_5c1426c9628f4c28ba6556065aeb7962" style="width: 100.0%; height: 100.0%;">('Gay, Bisexuals, and Lesbians of Color (GBLOC)', nan)</div>`)[0];
+            popup_22f1285fa7f445fbbfca9a0b78aea984.setContent(html_5c1426c9628f4c28ba6556065aeb7962);
+        
+
+        marker_9f54aff9d85a42dbb2bd839cc259bd58.bindPopup(popup_22f1285fa7f445fbbfca9a0b78aea984)
+        ;
+
+        
+    
+    
+            var marker_79cd84b4f24346cfb3881dd97e621318 = L.marker(
+                [42.446406, -76.485054],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_1d27d68fc5034d9d8a0afbf1aab66b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_79cd84b4f24346cfb3881dd97e621318.setIcon(icon_1d27d68fc5034d9d8a0afbf1aab66b68);
+        
+    
+        var popup_8d90c2b796ba4fa58c35f7f091a3004c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5d9a309cd94e9e8679022e57eeaeab = $(`<div id="html_df5d9a309cd94e9e8679022e57eeaeab" style="width: 100.0%; height: 100.0%;">('First GBLOC conference', 'The First GBLOC conference featured a rally in front of Willard Straight Hall')</div>`)[0];
+            popup_8d90c2b796ba4fa58c35f7f091a3004c.setContent(html_df5d9a309cd94e9e8679022e57eeaeab);
+        
+
+        marker_79cd84b4f24346cfb3881dd97e621318.bindPopup(popup_8d90c2b796ba4fa58c35f7f091a3004c)
+        ;
+
+        
+    
+    
+            var marker_506c84173f7d4e5ab8f0dcd62d64a150 = L.marker(
+                [42.405856, -76.511868],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_1212a086f75a49e68b47c21c8d7c8751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_506c84173f7d4e5ab8f0dcd62d64a150.setIcon(icon_1212a086f75a49e68b47c21c8d7c8751);
+        
+    
+        var popup_ccac1ac905494bdeb6731940f45da389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537f1dcba16946f3b63044419894080c = $(`<div id="html_537f1dcba16946f3b63044419894080c" style="width: 100.0%; height: 100.0%;">('Upper Buttermilk State Park', 'Picnics in Buttermilk State Park brought queer people from around the Southern Tier together')</div>`)[0];
+            popup_ccac1ac905494bdeb6731940f45da389.setContent(html_537f1dcba16946f3b63044419894080c);
+        
+
+        marker_506c84173f7d4e5ab8f0dcd62d64a150.bindPopup(popup_ccac1ac905494bdeb6731940f45da389)
+        ;
+
+        
+    
+    
+            var marker_5d898e0958414b999091d768c7a84906 = L.marker(
+                [42.446678999999996, -76.48588000000001],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_cb92db0eedea4d29aa6d2126a1977264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5d898e0958414b999091d768c7a84906.setIcon(icon_cb92db0eedea4d29aa6d2126a1977264);
+        
+    
+        var popup_b151a89734c042dfaff13f6b7ba08643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8770ecc539c2434d84c41f537b1b79a6 = $(`<div id="html_8770ecc539c2434d84c41f537b1b79a6" style="width: 100.0%; height: 100.0%;">('May Gay Festival', nan)</div>`)[0];
+            popup_b151a89734c042dfaff13f6b7ba08643.setContent(html_8770ecc539c2434d84c41f537b1b79a6);
+        
+
+        marker_5d898e0958414b999091d768c7a84906.bindPopup(popup_b151a89734c042dfaff13f6b7ba08643)
+        ;
+
+        
+    
+    
+            var marker_f56d3af2ef134f2bb4014e9b4b7d60bb = L.marker(
+                [42.447841, -76.483979],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_30ac0de4035e4c99bf888aa802596689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f56d3af2ef134f2bb4014e9b4b7d60bb.setIcon(icon_30ac0de4035e4c99bf888aa802596689);
+        
+    
+        var popup_01b887ce9f974945b22816a4bf3ed80b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff078ead9f1f42808b1171f29194ff5d = $(`<div id="html_ff078ead9f1f42808b1171f29194ff5d" style="width: 100.0%; height: 100.0%;">('Human Sexuality Collection', nan)</div>`)[0];
+            popup_01b887ce9f974945b22816a4bf3ed80b.setContent(html_ff078ead9f1f42808b1171f29194ff5d);
+        
+
+        marker_f56d3af2ef134f2bb4014e9b4b7d60bb.bindPopup(popup_01b887ce9f974945b22816a4bf3ed80b)
+        ;
+
+        
+    
+    
+            var marker_a2208beddd8c459e83eef2eca1cd6bc0 = L.marker(
+                [42.422131, -76.49278000000001],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_2f03f7b963e6479d8aec8173cae6d9f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a2208beddd8c459e83eef2eca1cd6bc0.setIcon(icon_2f03f7b963e6479d8aec8173cae6d9f0);
+        
+    
+        var popup_310e4be75fe341e097f161b2acc7377f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df879c6f319a4261aba0c1ac20a18f4b = $(`<div id="html_df879c6f319a4261aba0c1ac20a18f4b" style="width: 100.0%; height: 100.0%;">('HIV/AIDS Memorial Daffodil Gardens', nan)</div>`)[0];
+            popup_310e4be75fe341e097f161b2acc7377f.setContent(html_df879c6f319a4261aba0c1ac20a18f4b);
+        
+
+        marker_a2208beddd8c459e83eef2eca1cd6bc0.bindPopup(popup_310e4be75fe341e097f161b2acc7377f)
+        ;
+
+        
+    
+    
+            var marker_6fafc5fc394146c7ac56c65d06b8ed1f = L.marker(
+                [42.438064000000004, -76.494215],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_49800c422bb84794829c81d659ac931c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6fafc5fc394146c7ac56c65d06b8ed1f.setIcon(icon_49800c422bb84794829c81d659ac931c);
+        
+    
+        var popup_ec20c87c24c74405b5e7a56ad7d66723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6207d5961ab0467987b84c882f52ac6e = $(`<div id="html_6207d5961ab0467987b84c882f52ac6e" style="width: 100.0%; height: 100.0%;">('Home of Cleve Thomas', nan)</div>`)[0];
+            popup_ec20c87c24c74405b5e7a56ad7d66723.setContent(html_6207d5961ab0467987b84c882f52ac6e);
+        
+
+        marker_6fafc5fc394146c7ac56c65d06b8ed1f.bindPopup(popup_ec20c87c24c74405b5e7a56ad7d66723)
+        ;
+
+        
+    
+    
+            var marker_761b7757b1b5481ea603dfb27437856a = L.marker(
+                [42.437424, -76.50404499999999],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_caa7937632354c2195c6cf8881e05062 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_761b7757b1b5481ea603dfb27437856a.setIcon(icon_caa7937632354c2195c6cf8881e05062);
+        
+    
+        var popup_066b34c4de6d4d908c642f25d2606afe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f07d5f1b5f3f4df3b7de1d02a68a99be = $(`<div id="html_f07d5f1b5f3f4df3b7de1d02a68a99be" style="width: 100.0%; height: 100.0%;">('Boyhood Home of Julius Eastman', nan)</div>`)[0];
+            popup_066b34c4de6d4d908c642f25d2606afe.setContent(html_f07d5f1b5f3f4df3b7de1d02a68a99be);
+        
+
+        marker_761b7757b1b5481ea603dfb27437856a.bindPopup(popup_066b34c4de6d4d908c642f25d2606afe)
+        ;
+
+        
+    
+    
+            var marker_82a928c6389f4a76a5efed94a381184f = L.marker(
+                [42.440072, -76.503725],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_129cb5fc1a194db6b247aa55e9ed14b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_82a928c6389f4a76a5efed94a381184f.setIcon(icon_129cb5fc1a194db6b247aa55e9ed14b6);
+        
+    
+        var popup_b1131501488444eca8d8b68dcda573b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d26dadb7a1c847f08846ccb4fa24b664 = $(`<div id="html_d26dadb7a1c847f08846ccb4fa24b664" style="width: 100.0%; height: 100.0%;">('Home of Harry Partch', nan)</div>`)[0];
+            popup_b1131501488444eca8d8b68dcda573b8.setContent(html_d26dadb7a1c847f08846ccb4fa24b664);
+        
+
+        marker_82a928c6389f4a76a5efed94a381184f.bindPopup(popup_b1131501488444eca8d8b68dcda573b8)
+        ;
+
+        
+    
+    
+            var marker_1ebf47704ce940d694939e10b318100a = L.marker(
+                [42.439234, -76.502167],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_67c78483e4b94dab8ce11f4c44c21295 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1ebf47704ce940d694939e10b318100a.setIcon(icon_67c78483e4b94dab8ce11f4c44c21295);
+        
+    
+        var popup_2b17435caf194d5a8badc7ffd4b2063c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8077920982d841818581d11f9514132c = $(`<div id="html_8077920982d841818581d11f9514132c" style="width: 100.0%; height: 100.0%;">('Smedleys Book Shop', nan)</div>`)[0];
+            popup_2b17435caf194d5a8badc7ffd4b2063c.setContent(html_8077920982d841818581d11f9514132c);
+        
+
+        marker_1ebf47704ce940d694939e10b318100a.bindPopup(popup_2b17435caf194d5a8badc7ffd4b2063c)
+        ;
+
+        
+    
+    
+            var marker_058d5e1538e141cf92627cd2cbeb0afd = L.marker(
+                [42.43971, -76.500304],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_7651517321d7499989189651e878c1bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_058d5e1538e141cf92627cd2cbeb0afd.setIcon(icon_7651517321d7499989189651e878c1bb);
+        
+    
+        var popup_ba3a53ced9434a5d9f20999df46101cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e24997da5034c7fb20bbf0982f02869 = $(`<div id="html_5e24997da5034c7fb20bbf0982f02869" style="width: 100.0%; height: 100.0%;">('Common Ground Dance Club original location', nan)</div>`)[0];
+            popup_ba3a53ced9434a5d9f20999df46101cd.setContent(html_5e24997da5034c7fb20bbf0982f02869);
+        
+
+        marker_058d5e1538e141cf92627cd2cbeb0afd.bindPopup(popup_ba3a53ced9434a5d9f20999df46101cd)
+        ;
+
+        
+    
+    
+            var marker_6dc41ed0fdde437586659aa8192291a1 = L.marker(
+                [42.43893, -76.498551],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_1b4796672ff84ef4a1c71c6900880502 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6dc41ed0fdde437586659aa8192291a1.setIcon(icon_1b4796672ff84ef4a1c71c6900880502);
+        
+    
+        var popup_4e3fed1725d64a8eabdeda4d7f253613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e091294c17774e3c928a1b94bf7f51f7 = $(`<div id="html_e091294c17774e3c928a1b94bf7f51f7" style="width: 100.0%; height: 100.0%;">("city hall/mayor's office", 'Two men were refused a marriage license despite support from Ithaca city officials, sparking a 2004 lawsuit with 25 same-sex couples called the "Ithaca 50"')</div>`)[0];
+            popup_4e3fed1725d64a8eabdeda4d7f253613.setContent(html_e091294c17774e3c928a1b94bf7f51f7);
+        
+
+        marker_6dc41ed0fdde437586659aa8192291a1.bindPopup(popup_4e3fed1725d64a8eabdeda4d7f253613)
+        ;
+
+        
+    
+    
+            var marker_f4be1f11c0134020bb0993bcf8b86166 = L.marker(
+                [42.439331, -76.497592],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_04525d7ae306416ab309307e0043fd5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f4be1f11c0134020bb0993bcf8b86166.setIcon(icon_04525d7ae306416ab309307e0043fd5e);
+        
+    
+        var popup_8098eb4c2a944cd1a72af6e64745620c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652d689b0c3e4a62a009e7e601616221 = $(`<div id="html_652d689b0c3e4a62a009e7e601616221" style="width: 100.0%; height: 100.0%;">('Firebrand Books', nan)</div>`)[0];
+            popup_8098eb4c2a944cd1a72af6e64745620c.setContent(html_652d689b0c3e4a62a009e7e601616221);
+        
+
+        marker_f4be1f11c0134020bb0993bcf8b86166.bindPopup(popup_8098eb4c2a944cd1a72af6e64745620c)
+        ;
+
+        
+    
+    
+            var marker_0b825c01efdf4dddac008e8c9664349d = L.marker(
+                [42.446712, -76.48591],
+                {}
+            ).addTo(map_3db2ede67c6d451ba94b3b8ccdd0c160);
+        
+    
+            var icon_d65aa226d0dd4edb81eaa002418cf40b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0b825c01efdf4dddac008e8c9664349d.setIcon(icon_d65aa226d0dd4edb81eaa002418cf40b);
+        
+    
+        var popup_89f633ba254f42d0b6bae305f9b92be6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e36bc3a2ad374c809da06169058ac1d4 = $(`<div id="html_e36bc3a2ad374c809da06169058ac1d4" style="width: 100.0%; height: 100.0%;">('Barbara Gittings Speaks at Cornell', nan)</div>`)[0];
+            popup_89f633ba254f42d0b6bae305f9b92be6.setContent(html_e36bc3a2ad374c809da06169058ac1d4);
+        
+
+        marker_0b825c01efdf4dddac008e8c9664349d.bindPopup(popup_89f633ba254f42d0b6bae305f9b92be6)
+        ;
+
+        
+    
+</script>
