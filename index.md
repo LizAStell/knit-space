@@ -1,5 +1,3 @@
-## Here's the Map
-
 Click on the markers or links below for some queer Cornell history!
 
 - Student Homophile League
@@ -14,6 +12,7 @@ Click on the markers or links below for some queer Cornell history!
 - Barbara Gittings Speaks at Cornell
 - Lesbian/Bisexual Women Support Group
 
+## Here's the Map
 
 <iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
 
