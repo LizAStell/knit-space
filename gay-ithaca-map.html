@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_392322a04c2a4478a2507eae8ea2eef7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_392322a04c2a4478a2507eae8ea2eef7" ></div>
+        
+</body>
+<script>    
+    
+            var map_392322a04c2a4478a2507eae8ea2eef7 = L.map(
+                "map_392322a04c2a4478a2507eae8ea2eef7",
+                {
+                    center: [42.446, -76.48],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2aa9ff83afe14bf38abb7681bd38e338 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var marker_8b46b43c9dae4506b0aaec5f8f884991 = L.marker(
+                [42.441998, -76.487347],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_d20cbff93bc54d9ab1ffc6c58ddd40a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8b46b43c9dae4506b0aaec5f8f884991.setIcon(icon_d20cbff93bc54d9ab1ffc6c58ddd40a3);
+        
+    
+        var popup_8a6ff6d67cf34d30b66894f603de2d2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fe02b56d7c041f8bcf337cb8be89adb = $(`<div id="html_8fe02b56d7c041f8bcf337cb8be89adb" style="width: 100.0%; height: 100.0%;">("Morrie's Bar", 1970, nan)</div>`)[0];
+            popup_8a6ff6d67cf34d30b66894f603de2d2d.setContent(html_8fe02b56d7c041f8bcf337cb8be89adb);
+        
+
+        marker_8b46b43c9dae4506b0aaec5f8f884991.bindPopup(popup_8a6ff6d67cf34d30b66894f603de2d2d)
+        ;
+
+        
+    
+    
+            var marker_637a460999f34a29bfa5803ec164da04 = L.marker(
+                [42.441984000000005, -76.485454],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_0bf2421dd6d54874af91815e535cf725 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_637a460999f34a29bfa5803ec164da04.setIcon(icon_0bf2421dd6d54874af91815e535cf725);
+        
+    
+        var popup_ac43331a311443a891ba9eaf38bd0944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b791b78999e0496994b0f243fc823c9d = $(`<div id="html_b791b78999e0496994b0f243fc823c9d" style="width: 100.0%; height: 100.0%;">("Gay People's Center", 1972, nan)</div>`)[0];
+            popup_ac43331a311443a891ba9eaf38bd0944.setContent(html_b791b78999e0496994b0f243fc823c9d);
+        
+
+        marker_637a460999f34a29bfa5803ec164da04.bindPopup(popup_ac43331a311443a891ba9eaf38bd0944)
+        ;
+
+        
+    
+    
+            var marker_b77bfc2b9b874b4e932e06e7acff8bb7 = L.marker(
+                [42.444939, -76.485596],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_99a7745e248344ec9a62f472bed20f82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b77bfc2b9b874b4e932e06e7acff8bb7.setIcon(icon_99a7745e248344ec9a62f472bed20f82);
+        
+    
+        var popup_64907fea6ecb44e181d089dc94ee6b4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd1fe3e708664664b22354cc12d79bc7 = $(`<div id="html_fd1fe3e708664664b22354cc12d79bc7" style="width: 100.0%; height: 100.0%;">('Student Homophile League', 1968, nan)</div>`)[0];
+            popup_64907fea6ecb44e181d089dc94ee6b4b.setContent(html_fd1fe3e708664664b22354cc12d79bc7);
+        
+
+        marker_b77bfc2b9b874b4e932e06e7acff8bb7.bindPopup(popup_64907fea6ecb44e181d089dc94ee6b4b)
+        ;
+
+        
+    
+    
+            var marker_5f1d375a501849248518608de57d91bd = L.marker(
+                [42.446686, -76.485403],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_8f76a8ab1e904069bb9d1a9d83a983ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5f1d375a501849248518608de57d91bd.setIcon(icon_8f76a8ab1e904069bb9d1a9d83a983ec);
+        
+    
+        var popup_360de41b845742f689c0223a06239390 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b935740157d4042946490ab300eb758 = $(`<div id="html_7b935740157d4042946490ab300eb758" style="width: 100.0%; height: 100.0%;">('Gay Liberation Front', 1970, nan)</div>`)[0];
+            popup_360de41b845742f689c0223a06239390.setContent(html_7b935740157d4042946490ab300eb758);
+        
+
+        marker_5f1d375a501849248518608de57d91bd.bindPopup(popup_360de41b845742f689c0223a06239390)
+        ;
+
+        
+    
+    
+            var marker_1b67655876af4345866427d035b378f4 = L.marker(
+                [42.446544, -76.48549399999999],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_f2c65ce066dd4d959cc43f51881f0d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1b67655876af4345866427d035b378f4.setIcon(icon_f2c65ce066dd4d959cc43f51881f0d23);
+        
+    
+        var popup_29856cc9715d46e3bea90a44696b92cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c228336d6c7548cab284d0fdc128e26e = $(`<div id="html_c228336d6c7548cab284d0fdc128e26e" style="width: 100.0%; height: 100.0%;">('Gay People at Cornell (GayPAC)', 1980, nan)</div>`)[0];
+            popup_29856cc9715d46e3bea90a44696b92cc.setContent(html_c228336d6c7548cab284d0fdc128e26e);
+        
+
+        marker_1b67655876af4345866427d035b378f4.bindPopup(popup_29856cc9715d46e3bea90a44696b92cc)
+        ;
+
+        
+    
+    
+            var marker_f008b37082a84773adfe5a39068dd6c9 = L.marker(
+                [42.45471, -76.476721],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_cfae284692904f73ac0c1b749eae2118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f008b37082a84773adfe5a39068dd6c9.setIcon(icon_cfae284692904f73ac0c1b749eae2118);
+        
+    
+        var popup_2a7e049ced7c4ed2973329ef25b4f7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2a464de5fc84873b7ea8319079e39e1 = $(`<div id="html_d2a464de5fc84873b7ea8319079e39e1" style="width: 100.0%; height: 100.0%;">('Loving House', 2019, nan)</div>`)[0];
+            popup_2a7e049ced7c4ed2973329ef25b4f7d2.setContent(html_d2a464de5fc84873b7ea8319079e39e1);
+        
+
+        marker_f008b37082a84773adfe5a39068dd6c9.bindPopup(popup_2a7e049ced7c4ed2973329ef25b4f7d2)
+        ;
+
+        
+    
+    
+            var marker_ac924688d63645768b2e25238e277ed2 = L.marker(
+                [42.446374, -76.485499],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_7282c72df5664c8c8852fe40be7fac9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ac924688d63645768b2e25238e277ed2.setIcon(icon_7282c72df5664c8c8852fe40be7fac9e);
+        
+    
+        var popup_0371cb6ef936465ea5bde5b105464feb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfd05f5ff6fb43a58b448a7be7db95d5 = $(`<div id="html_bfd05f5ff6fb43a58b448a7be7db95d5" style="width: 100.0%; height: 100.0%;">('Gay, Bisexuals, and Lesbians of Color (GBLOC)', 1985, nan)</div>`)[0];
+            popup_0371cb6ef936465ea5bde5b105464feb.setContent(html_bfd05f5ff6fb43a58b448a7be7db95d5);
+        
+
+        marker_ac924688d63645768b2e25238e277ed2.bindPopup(popup_0371cb6ef936465ea5bde5b105464feb)
+        ;
+
+        
+    
+    
+            var marker_1f434b3fdefe48f7a8dfefeb59257d31 = L.marker(
+                [42.446406, -76.485054],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_84cfa1a4e1924f04b69b27d4b36b4241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1f434b3fdefe48f7a8dfefeb59257d31.setIcon(icon_84cfa1a4e1924f04b69b27d4b36b4241);
+        
+    
+        var popup_6cc28c13efc6460d93af28fb54202a52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb6fc13137f74a849a5ae610255ef257 = $(`<div id="html_eb6fc13137f74a849a5ae610255ef257" style="width: 100.0%; height: 100.0%;">('First GBLOC conference', 1986, 'The First GBLOC conference featured a rally in front of Willard Straight Hall')</div>`)[0];
+            popup_6cc28c13efc6460d93af28fb54202a52.setContent(html_eb6fc13137f74a849a5ae610255ef257);
+        
+
+        marker_1f434b3fdefe48f7a8dfefeb59257d31.bindPopup(popup_6cc28c13efc6460d93af28fb54202a52)
+        ;
+
+        
+    
+    
+            var marker_e07936a7cf554b0488d21110011010d3 = L.marker(
+                [42.446678999999996, -76.48588000000001],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_97bdf567445d462ba5cd0c4c7ac5879d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e07936a7cf554b0488d21110011010d3.setIcon(icon_97bdf567445d462ba5cd0c4c7ac5879d);
+        
+    
+        var popup_3c76effa5b8c451689c8033746271dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cfd295db4184d2db5102dabbb65b674 = $(`<div id="html_2cfd295db4184d2db5102dabbb65b674" style="width: 100.0%; height: 100.0%;">('May Gay Festival', 1971, nan)</div>`)[0];
+            popup_3c76effa5b8c451689c8033746271dad.setContent(html_2cfd295db4184d2db5102dabbb65b674);
+        
+
+        marker_e07936a7cf554b0488d21110011010d3.bindPopup(popup_3c76effa5b8c451689c8033746271dad)
+        ;
+
+        
+    
+    
+            var marker_88763a3913064da1b40265ba85e4c7b7 = L.marker(
+                [42.447841, -76.483979],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_ca2fb60bc22340a79391582f7131de8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_88763a3913064da1b40265ba85e4c7b7.setIcon(icon_ca2fb60bc22340a79391582f7131de8b);
+        
+    
+        var popup_f62439e3085c405dbb8fa9813e1ccd08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d55a87b03f4441a389ed8babe9a0987f = $(`<div id="html_d55a87b03f4441a389ed8babe9a0987f" style="width: 100.0%; height: 100.0%;">('Human Sexuality Collection', 1989, nan)</div>`)[0];
+            popup_f62439e3085c405dbb8fa9813e1ccd08.setContent(html_d55a87b03f4441a389ed8babe9a0987f);
+        
+
+        marker_88763a3913064da1b40265ba85e4c7b7.bindPopup(popup_f62439e3085c405dbb8fa9813e1ccd08)
+        ;
+
+        
+    
+    
+            var marker_4374abfbfdbe47b28c5b6e034945866e = L.marker(
+                [42.446712, -76.48591],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_6b5d6b412fa0407898778c9006a3e6e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4374abfbfdbe47b28c5b6e034945866e.setIcon(icon_6b5d6b412fa0407898778c9006a3e6e7);
+        
+    
+        var popup_5552c29a19094fdd80b7609df0fdfdbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2412da736e04fc595a024bbd011c4c1 = $(`<div id="html_c2412da736e04fc595a024bbd011c4c1" style="width: 100.0%; height: 100.0%;">('Barbara Gittings Speaks at Cornell', 1969, nan)</div>`)[0];
+            popup_5552c29a19094fdd80b7609df0fdfdbb.setContent(html_c2412da736e04fc595a024bbd011c4c1);
+        
+
+        marker_4374abfbfdbe47b28c5b6e034945866e.bindPopup(popup_5552c29a19094fdd80b7609df0fdfdbb)
+        ;
+
+        
+    
+    
+            var marker_9d93fc823cc44abda648c00ac5367526 = L.marker(
+                [42.446412, -76.484379],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_cc7063abbdfd4ba1b966748e5e8f3aa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9d93fc823cc44abda648c00ac5367526.setIcon(icon_cc7063abbdfd4ba1b966748e5e8f3aa7);
+        
+    
+        var popup_7b8daa4a753a4f1e9c0ffb1d015b002d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eb740bd3dd54df4b9e5791bfbf06eed = $(`<div id="html_3eb740bd3dd54df4b9e5791bfbf06eed" style="width: 100.0%; height: 100.0%;">('Lesbian/Bisexual Women Support Group', 1986, nan)</div>`)[0];
+            popup_7b8daa4a753a4f1e9c0ffb1d015b002d.setContent(html_3eb740bd3dd54df4b9e5791bfbf06eed);
+        
+
+        marker_9d93fc823cc44abda648c00ac5367526.bindPopup(popup_7b8daa4a753a4f1e9c0ffb1d015b002d)
+        ;
+
+        
+    
+    
+            var marker_efb6ddd9b95f48eaa9e65736ebbc0322 = L.marker(
+                [42.441998, -76.487347],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_9e8b88782070407994085a721e775b0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_efb6ddd9b95f48eaa9e65736ebbc0322.setIcon(icon_9e8b88782070407994085a721e775b0d);
+        
+    
+        var popup_23bb8f4f356d43519a8f1088b00b005e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_943bdcf223c44ecc8b12c5f1c8be17bc = $(`<div id="html_943bdcf223c44ecc8b12c5f1c8be17bc" style="width: 100.0%; height: 100.0%;">("Morrie's Bar", 1970, nan)</div>`)[0];
+            popup_23bb8f4f356d43519a8f1088b00b005e.setContent(html_943bdcf223c44ecc8b12c5f1c8be17bc);
+        
+
+        marker_efb6ddd9b95f48eaa9e65736ebbc0322.bindPopup(popup_23bb8f4f356d43519a8f1088b00b005e)
+        ;
+
+        
+    
+    
+            var marker_2fe1e188c0d94ed6a8041b99745e2341 = L.marker(
+                [42.441984000000005, -76.485454],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_448e1d9af99745c784b5e59c970f1322 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2fe1e188c0d94ed6a8041b99745e2341.setIcon(icon_448e1d9af99745c784b5e59c970f1322);
+        
+    
+        var popup_8a6da446837e4ddab60e847c2eb73433 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57bd6a0790964ba69d264d657f48574e = $(`<div id="html_57bd6a0790964ba69d264d657f48574e" style="width: 100.0%; height: 100.0%;">("Gay People's Center", 1972, nan)</div>`)[0];
+            popup_8a6da446837e4ddab60e847c2eb73433.setContent(html_57bd6a0790964ba69d264d657f48574e);
+        
+
+        marker_2fe1e188c0d94ed6a8041b99745e2341.bindPopup(popup_8a6da446837e4ddab60e847c2eb73433)
+        ;
+
+        
+    
+    
+            var marker_ee804f71a9124b2688b715d3992e4687 = L.marker(
+                [42.444939, -76.485596],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_6db0203b08524c73b65017a6667d1054 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ee804f71a9124b2688b715d3992e4687.setIcon(icon_6db0203b08524c73b65017a6667d1054);
+        
+    
+        var popup_f2a1ab495413433ea2b39f41cb4ef045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d1eb25e84ab4b3cb3c1effc5710e283 = $(`<div id="html_8d1eb25e84ab4b3cb3c1effc5710e283" style="width: 100.0%; height: 100.0%;">('Student Homophile League', 1968, nan)</div>`)[0];
+            popup_f2a1ab495413433ea2b39f41cb4ef045.setContent(html_8d1eb25e84ab4b3cb3c1effc5710e283);
+        
+
+        marker_ee804f71a9124b2688b715d3992e4687.bindPopup(popup_f2a1ab495413433ea2b39f41cb4ef045)
+        ;
+
+        
+    
+    
+            var marker_14827615651a4d38b662f3d7a75afb15 = L.marker(
+                [42.446686, -76.485403],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_a0d0855f69d74ab7b609c55ad12dc0bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_14827615651a4d38b662f3d7a75afb15.setIcon(icon_a0d0855f69d74ab7b609c55ad12dc0bf);
+        
+    
+        var popup_369d83a5a79e4b199cd31f5c47fbf3d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6fe109f73a4423ba1f5a5ff7efa6a08 = $(`<div id="html_e6fe109f73a4423ba1f5a5ff7efa6a08" style="width: 100.0%; height: 100.0%;">('Gay Liberation Front', 1970, nan)</div>`)[0];
+            popup_369d83a5a79e4b199cd31f5c47fbf3d4.setContent(html_e6fe109f73a4423ba1f5a5ff7efa6a08);
+        
+
+        marker_14827615651a4d38b662f3d7a75afb15.bindPopup(popup_369d83a5a79e4b199cd31f5c47fbf3d4)
+        ;
+
+        
+    
+    
+            var marker_95fc7186006e4ec4b5cb196784e4c078 = L.marker(
+                [42.446544, -76.48549399999999],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_6da5183a91c94ad789eaae301acff42c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_95fc7186006e4ec4b5cb196784e4c078.setIcon(icon_6da5183a91c94ad789eaae301acff42c);
+        
+    
+        var popup_a918b70cd797422397880457bca97d3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e30a7d1ac934e8b8d0b26d02d41d579 = $(`<div id="html_2e30a7d1ac934e8b8d0b26d02d41d579" style="width: 100.0%; height: 100.0%;">('Gay People at Cornell (GayPAC)', 1980, nan)</div>`)[0];
+            popup_a918b70cd797422397880457bca97d3d.setContent(html_2e30a7d1ac934e8b8d0b26d02d41d579);
+        
+
+        marker_95fc7186006e4ec4b5cb196784e4c078.bindPopup(popup_a918b70cd797422397880457bca97d3d)
+        ;
+
+        
+    
+    
+            var marker_b3d9e0f82cc8467bbdea83ea07acfd20 = L.marker(
+                [42.45471, -76.476721],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_3ac93dcceec04e2ca33c7cc9a71bec77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b3d9e0f82cc8467bbdea83ea07acfd20.setIcon(icon_3ac93dcceec04e2ca33c7cc9a71bec77);
+        
+    
+        var popup_7501dff2ddb048fc8a42adf5cfa39ddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fbb3f971e2c4e41841f76928dd49100 = $(`<div id="html_6fbb3f971e2c4e41841f76928dd49100" style="width: 100.0%; height: 100.0%;">('Loving House', 2019, nan)</div>`)[0];
+            popup_7501dff2ddb048fc8a42adf5cfa39ddd.setContent(html_6fbb3f971e2c4e41841f76928dd49100);
+        
+
+        marker_b3d9e0f82cc8467bbdea83ea07acfd20.bindPopup(popup_7501dff2ddb048fc8a42adf5cfa39ddd)
+        ;
+
+        
+    
+    
+            var marker_e89c7394ad3a4de18137097cc44d167f = L.marker(
+                [42.446374, -76.485499],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_11ae8aa97a0d43688b55d15c005396a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e89c7394ad3a4de18137097cc44d167f.setIcon(icon_11ae8aa97a0d43688b55d15c005396a9);
+        
+    
+        var popup_dfa8fad3c0fa40cfbd6838fed44a447c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a44681de4704bb78d12ab6160a78719 = $(`<div id="html_0a44681de4704bb78d12ab6160a78719" style="width: 100.0%; height: 100.0%;">('Gay, Bisexuals, and Lesbians of Color (GBLOC)', 1985, nan)</div>`)[0];
+            popup_dfa8fad3c0fa40cfbd6838fed44a447c.setContent(html_0a44681de4704bb78d12ab6160a78719);
+        
+
+        marker_e89c7394ad3a4de18137097cc44d167f.bindPopup(popup_dfa8fad3c0fa40cfbd6838fed44a447c)
+        ;
+
+        
+    
+    
+            var marker_719e49eb72754091b206d9cfe16ee041 = L.marker(
+                [42.446406, -76.485054],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_0d2cde3ffdd44c6b8c859141f1a8552f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_719e49eb72754091b206d9cfe16ee041.setIcon(icon_0d2cde3ffdd44c6b8c859141f1a8552f);
+        
+    
+        var popup_76b8466dbacd49f492ded3c518865a35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcf99874db524958bb069a293ea9aa66 = $(`<div id="html_dcf99874db524958bb069a293ea9aa66" style="width: 100.0%; height: 100.0%;">('First GBLOC conference', 1986, 'The First GBLOC conference featured a rally in front of Willard Straight Hall')</div>`)[0];
+            popup_76b8466dbacd49f492ded3c518865a35.setContent(html_dcf99874db524958bb069a293ea9aa66);
+        
+
+        marker_719e49eb72754091b206d9cfe16ee041.bindPopup(popup_76b8466dbacd49f492ded3c518865a35)
+        ;
+
+        
+    
+    
+            var marker_3666f2a71802443ebe8c06985498b090 = L.marker(
+                [42.446678999999996, -76.48588000000001],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_ba5d7cf6c9e1427c95f355d6c745a277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3666f2a71802443ebe8c06985498b090.setIcon(icon_ba5d7cf6c9e1427c95f355d6c745a277);
+        
+    
+        var popup_04179f6ef4604a4b8d584d7bd33e76fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65023c081838413abc096467369263c9 = $(`<div id="html_65023c081838413abc096467369263c9" style="width: 100.0%; height: 100.0%;">('May Gay Festival', 1971, nan)</div>`)[0];
+            popup_04179f6ef4604a4b8d584d7bd33e76fa.setContent(html_65023c081838413abc096467369263c9);
+        
+
+        marker_3666f2a71802443ebe8c06985498b090.bindPopup(popup_04179f6ef4604a4b8d584d7bd33e76fa)
+        ;
+
+        
+    
+    
+            var marker_2979a476a4a64bbb9f3f38d0d490fbed = L.marker(
+                [42.447841, -76.483979],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_f2a6329d0f9a4c598552bb7a75da212b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2979a476a4a64bbb9f3f38d0d490fbed.setIcon(icon_f2a6329d0f9a4c598552bb7a75da212b);
+        
+    
+        var popup_f8b620d3a3a34cadb17a1cfe68c2bc74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f185b883c7a140dbae25a85b13d0abad = $(`<div id="html_f185b883c7a140dbae25a85b13d0abad" style="width: 100.0%; height: 100.0%;">('Human Sexuality Collection', 1989, nan)</div>`)[0];
+            popup_f8b620d3a3a34cadb17a1cfe68c2bc74.setContent(html_f185b883c7a140dbae25a85b13d0abad);
+        
+
+        marker_2979a476a4a64bbb9f3f38d0d490fbed.bindPopup(popup_f8b620d3a3a34cadb17a1cfe68c2bc74)
+        ;
+
+        
+    
+    
+            var marker_720715643e9941aea02458600119257f = L.marker(
+                [42.446712, -76.48591],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_a0b2e21c6ba34d90838182e173ac2580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_720715643e9941aea02458600119257f.setIcon(icon_a0b2e21c6ba34d90838182e173ac2580);
+        
+    
+        var popup_9a0498aad5d14cb3b44c2503accff623 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5d871a2c20d4d24be53897716286d70 = $(`<div id="html_a5d871a2c20d4d24be53897716286d70" style="width: 100.0%; height: 100.0%;">('Barbara Gittings Speaks at Cornell', 1969, nan)</div>`)[0];
+            popup_9a0498aad5d14cb3b44c2503accff623.setContent(html_a5d871a2c20d4d24be53897716286d70);
+        
+
+        marker_720715643e9941aea02458600119257f.bindPopup(popup_9a0498aad5d14cb3b44c2503accff623)
+        ;
+
+        
+    
+    
+            var marker_d4bf42d25d4640e4a9a97193bf3ecdc7 = L.marker(
+                [42.446412, -76.484379],
+                {}
+            ).addTo(map_392322a04c2a4478a2507eae8ea2eef7);
+        
+    
+            var icon_e8adf158e4764a8a84bfbe9d4851dd85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d4bf42d25d4640e4a9a97193bf3ecdc7.setIcon(icon_e8adf158e4764a8a84bfbe9d4851dd85);
+        
+    
+        var popup_ea6a3992e45b4b39b4b685197e61a4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4dd816266704f4db145b9fb73744b14 = $(`<div id="html_d4dd816266704f4db145b9fb73744b14" style="width: 100.0%; height: 100.0%;">('Lesbian/Bisexual Women Support Group', 1986, nan)</div>`)[0];
+            popup_ea6a3992e45b4b39b4b685197e61a4a5.setContent(html_d4dd816266704f4db145b9fb73744b14);
+        
+
+        marker_d4bf42d25d4640e4a9a97193bf3ecdc7.bindPopup(popup_ea6a3992e45b4b39b4b685197e61a4a5)
+        ;
+
+        
+    
+</script>
