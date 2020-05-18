@@ -7,4 +7,6 @@ In the next few years, the “May Gay Festival”, as it became called, grew to 
 The 1970 Rochester festival no doubt inspired Cornell’s GLF to host theirs, or at least gave them ideas. Collaboration between the two groups was essential in starting the May Gay Festival that became an annual event for at least thirteen years. 
 
 
+<iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
+
 [back](https://lizstell.github.io/queer-cornell-map/)
