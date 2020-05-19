@@ -8,7 +8,7 @@ Click on the markers or links below for some queer Cornell history!
 - Gay, Bisexuals, and Lesbians of Color (GBLOC)
 - First GBLOC conference
 - [May Gay Festival](May-Gay-Festival.md)
-- Human Sexuality Collection
+- [Human Sexuality Collection](Human-Sexuality-Collection.md)
 - Barbara Gittings Speaks at Cornell
 - Lesbian/Bisexual Women Support Group
 
