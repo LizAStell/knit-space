@@ -3,3 +3,10 @@ In 1985, the Mariposa Education and Research Foundation pledged to donate a coll
 When Goodstein and Mariposa Foundation president Bruce Voeller approached the university in 1983 to donate the collection, Cornell officials had turned down the offer, saying the materials weren't scholarly enough to have a place in the library archives. 
 
 Now, the Human Sexuality Collection contains records from national organizations, materials from the Ithaca-based publisher Firebrand Books, the Harry Weintraub collection of photographs and publications, and many more resources.
+
+
+
+
+<iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
+
+[back](https://lizstell.github.io/queer-cornell-map/)
