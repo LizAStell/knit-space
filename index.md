@@ -14,6 +14,7 @@ Click on the markers or links below for some queer Cornell history!
 - Lesbian/Bisexual Women Support Group
 - [Cornell University Gay and Lesbian Alumni Association (CUGALA)](CUGALA.md)
 - [Gaypril](Gaypril.md)
+- [LGBT Studies](LGBT-Studies.md)
 
 
 <iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
