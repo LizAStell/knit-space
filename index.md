@@ -1,7 +1,7 @@
 Click on the markers or links below for some queer Cornell history!
 
 - [Morrie's Bar](Morries-Bar.md)
-- Student Homophile League (SHL
+- [Student Homophile League (SHL)](Student-Homophile-League.md)
 - [Gay Liberation Front (GLF)](Gay-Liberation-Front.md)
 - [Gay People at Cornell (GayPAC)](GayPAC.md)
 - Gay People's Center
