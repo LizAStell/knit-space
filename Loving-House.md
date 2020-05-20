@@ -1,0 +1,3 @@
+Cornell students began petitioning for a queer program house in the 1980s, but were refused every time. Cornell officials claimed that the goal of freshmen housing, including program houses was allow students from multiple backgrounds to live together and learn from each other. Despite allowing other program houses for minority communities, like Ujaama for Black students and the Latino Living Center, Cornell continued to refuse a queer program house until 2019, when the Loving House was added to the program house system as a part of Mews Hall.
+
+<iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
