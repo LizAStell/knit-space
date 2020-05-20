@@ -1,5 +1,6 @@
 Click on the markers or links below for some queer Cornell history!
 
+- [Morrie's Bar](Morries-Bar.md)
 - Student Homophile League
 - Gay Liberation Front
 - Gay People at Cornell (GayPAC)- Boycott of Morrie's Bar
