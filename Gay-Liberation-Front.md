@@ -1,0 +1,3 @@
+The Student Homophile League (SHL) changed its name to the Gay Liberation Front (GLF) in 1970 as the members shifted their focus from just supporting gay members to fighting for gay rights. Cornell’s GLF began the tradition of the May Gay festival, participated protests in New York City and Washington D.C., and raied awareness about the issues facing gay students on campus. One of the most discussed activities was their organization of the boycott of Morrie’s Bar in Collegetown when the owner refused to serve his gay customers. The GLF continued their support for students with the Gay People’s Center on College Ave.
+
+<iframe src="gay-ithaca-map.html" height="500" width="500"></iframe>
