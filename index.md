@@ -10,6 +10,7 @@ Click on the markers or links below for some queer Cornell history!
 - First GBLOC conference
 - [May Gay Festival](May-Gay-Festival.md)
 - [Human Sexuality Collection](Human-Sexuality-Collection.md)
+- [Martha Van Rensselaer and Flora Rose](Van-Rose.md) 
 - Barbara Gittings Speaks at Cornell
 - Lesbian/Bisexual Women Support Group
 - [Cornell University Gay and Lesbian Alumni Association (CUGALA)](CUGALA.md)
